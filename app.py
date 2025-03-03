@@ -3,7 +3,7 @@ from view_groups import groups
 
 st.set_page_config(layout="wide")
 st.logo("assets/logo.svg")
-st.title("📖 Databricks Apps Cookbook 🍳")
+st.title("📖 Databricks Apps Cookbook V2 🍳")
 
 pages = {
     group.get("title", ""): [
