@@ -35,7 +35,7 @@ with tab_a:
     
     with st.form("dataset_form"):
         http_path_input = st.text_input(
-            "Enter your Databricks HTTP Path:",
+            "Enter your Databricks SQL Warehouse HTTP Path:",
             value="/sql/1.0/warehouses/xxxxxx",
             placeholder="/sql/1.0/warehouses/xxxxxx"
         )
